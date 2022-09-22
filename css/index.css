@@ -2,7 +2,7 @@ h2 {
     text-align: center;
 }
 
-.container {
+#container {
     display: grid;
     margin: auto;
     background-color: brown;
@@ -12,6 +12,8 @@ h2 {
     grid-template-columns: 60px 60px 60px;
 }
 
-.container > div {
+#container > div {
     background-color: blanchedalmond;
+    font-size: 3.2em;
+    text-align: center;
 }
